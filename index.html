@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>shadow mu</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no," />
+    <meta charset="utf-8" />
+    <meta name="description" content="ddsgn" />
+    <meta name="keywords" content="ddsgn" />
+    <meta name="author" content="ddsgn" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- links -->
+    
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/favico.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>$(document).ready(function() {
+  "use strict";
+  $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+  $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
+  $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">&nbsp;</a>");
+  $(".menu > ul > li").hover(function(e) {
+    if ($(window).width() > 943) {
+      $(this).children("ul").stop(true, false).fadeToggle(150);
+      e.preventDefault();
+    }
+  });
+  $(".menu > ul > li").click(function() {
+    if ($(window).width() <= 943) {
+      $(this).children("ul").fadeToggle(150);
+    }
+  });
+  $(".menu-mobile").click(function(e) {
+    $(".menu > ul").toggleClass('show-on-mobile');
+    e.preventDefault();
+  });
+});
+$(window).resize(function() {
+  $(".menu > ul > li").children("ul").hide();
+  $(".menu > ul").removeClass('show-on-mobile');
+});
+</script>
+<!-- <script type="text/JavaScript">
+  //Script courtesy of BoogieJack.com
+  var message="NoRightClicking";
+  function defeatIE() {if (document.all) {(message);return false;}}
+  function defeatNS(e) {if 
+  (document.layers||(document.getElementById&&!document.all)) {
+  if (e.which==2||e.which==3) {(message);return false;}}}
+  if (document.layers) 
+  {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+  else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+  document.oncontextmenu=new Function("return false")
+  </script> -->
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  
+  
+    
+    <div class="menu-container">
+      <div class="menu">
+        <a href="#" class="logo"><img class="img-logo" src="img/logo.png"></a>
+        <ul class="clearfix">
+          <li><a href="#">News</a></li>
+          <li><a href="#">Rankings</a>
+            <ul>
+              <li><a href="#">Toplist</a>
+                <ul>
+                  <li><a href="#">Top Level</a></li>
+                  <li><a href="#">Top Gens</a></li>
+                  <li><a href="#">Top Events</a></li>
+                  <li><a href="#">Top Castle Siege</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Top</a>
+                <ul>
+                  <li><a href="#">Undergraduate</a></li>
+                  <li><a href="#">Masters</a></li>
+                  <li><a href="#">International</a></li>
+                  <li><a href="#">Online</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Top</a>
+                <ul>
+                  <li><a href="#">Undergraduate research</a></li>
+                  <li><a href="#">Masters research</a></li>
+                  <li><a href="#">Funding</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Something</a>
+                <ul>
+                  <li><img src="https://placeimg.com/300/200/nature"></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Register</a>
+            <ul>
+              <li><a href="#">Today</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Sport</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <div class="lightning flashit"></div>
+  <div class="all">
+    <div class="sparks-sparks">
+      <div class="sparks sparks-1">
+      </div>
+      <div class="sparks sparks-2">
+      </div>
+      <div class="sparks sparks-3">
+      </div>
+    </div>
+    <div class="sparks-sparks2">
+      <div class="sparks sparks-1">
+      </div>
+      <div class="sparks sparks-2">
+      </div>
+      <div class="sparks sparks-3">
+      </div>
+      
+    </div>
+    <div class="smog">
+      <i class="num1"></i>
+      <i class="num2"></i>
+      <i class="num3"></i>
+    </div>
+  </div>
+
+
+</body>
+
+<footer style="z-index: 15;">
+  <div class="footer">
+  <div class="row">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  </div>
+  
+  <div class="row">
+  <ul>
+  <li><a href="#">Kontakt</a></li>
+  <li><a href="#">Usługi</a></li>
+  <li><a href="#">Polityka prywatności</a></li>
+  <li><a href="#">Regulamin</a></li>
+  <li><a href="#">Praca w ddsgn</a></li>
+  </ul>
+  </div>
+  
+  <div class="row">
+  ddsgn © 2021 BLACKSTORE - All rights reserved || dsgn by ddsgn 
+  </div>
+  </div>
+  </footer>
